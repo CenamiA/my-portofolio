@@ -78,3 +78,28 @@ width: 60px;
     display: flex;
     flex-direction: column;
   }
+
+  .mainImage{
+    width: 100%;
+    height: auto;
+    background-image: url("../images/img1.jpg");
+    background-repeat: no-repeat;
+   background-size: cover;
+  }
+
+  .secondImage{
+    background-image: url("../images/img2.jpg");
+  }
+
+
+  .thirdImage{
+    background-image:url("../images/img6.jpg") ;
+  }
+
+  .fourthImage{
+    background-image: url("../images/img4.jpg");
+  }
+
+  .fifthImage{
+    background-image: url("../images/img5.jpg");
+  }
