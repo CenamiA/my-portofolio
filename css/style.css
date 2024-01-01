@@ -85,21 +85,62 @@ width: 60px;
     background-image: url("../images/img1.jpg");
     background-repeat: no-repeat;
    background-size: cover;
+   border: 5px #c7b198 solid;
   }
 
   .secondImage{
     background-image: url("../images/img2.jpg");
+    border: 5px #c7b198 solid;
   }
 
 
   .thirdImage{
-    background-image:url("../images/img6.jpg") ;
+    background-image:url("../images/img6.jpg");
+    border: 5px #c7b198 solid;
   }
 
   .fourthImage{
     background-image: url("../images/img4.jpg");
+    border: 5px #c7b198 solid;
   }
 
   .fifthImage{
     background-image: url("../images/img5.jpg");
+    border: 5px #c7b198 solid;
   }
+
+  /* footer */
+  
+  .footer-container{
+    display: flex;
+    margin: 30px 0;
+      }
+    
+    footer ul{
+        width: 65%;
+        display: flex;
+        margin-left: 4rem;
+        justify-content: space-evenly;
+        
+        
+    }
+    
+    footer ul li{
+        margin-left: 10px ;
+        list-style-type: none;
+        
+    }
+    
+    @media(max-width:600px){
+        footer ul{
+            flex-direction: column;
+        }
+    
+        footer ul li{
+            width: 100%;
+            text-align: center;
+            margin: 5px;
+            text-align: left;
+        }
+    }
+    
