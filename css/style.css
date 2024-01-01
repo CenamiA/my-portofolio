@@ -26,3 +26,55 @@ width: 60px;
     background-size: cover;
     width: 100%;
 }
+
+/* cards */
+
+.row{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;   
+    
+}
+
+.cardContainer{
+    height: 400px;
+}
+
+.card{
+    height: 300px;
+    margin: 20px;
+}
+
+.btn{
+  background-color: #596e79;
+  color: white;
+}
+.cardTitle{
+  color: #eb2632;
+  font-weight: bolder;
+}
+
+.pClass{
+  color: #e8630a;
+  font-weight: bold;
+}
+
+/* about container */
+.about-container{
+    display: flex;
+    align-items:flex-start
+  }
+
+  .about-container h3{
+    margin-right: 10px;
+  }
+
+  .about-container p{
+    margin-left: 2rem;
+  }
+
+  /* work container */
+  .work-container{
+    display: flex;
+    flex-direction: column;
+  }
