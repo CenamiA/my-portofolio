@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-color: #c7b198;
+}
+
+/* header */
+
+.header{
+    background-color: #596e79;
+}
+
+/* navbar */
+.navLogo{
+width: 60px;
+}
+
+/* hero image */
+.hero{
+    background-image: linear-gradient(#f0ece2,#dfcdc3,#dfd3c3, #ebcbae
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
